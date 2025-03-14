@@ -1,124 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-   
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vini Kaul</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
-        rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      href="https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
     <link
-        href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
-        rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
     <link
-        href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
-        rel="stylesheet">
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
     <script>
-
-        function toggleMenu() {
-            const menu = document.getElementById('menu');
-            menu.classList.toggle('hidden');
-        }
+      function toggleMenu() {
+        const menu = document.getElementById("menu");
+        menu.classList.toggle("hidden");
+      }
     </script>
 
-
     <style>
-        * {
-            font-family: "Open Sans", sans-serif;
-            font-optical-sizing: auto;
+      * {
+        font-family: "Open Sans", sans-serif;
+        font-optical-sizing: auto;
+      }
 
-        }
+      .ins {
+        font-family: "Instrument Sans", sans-serif;
+        font-optical-sizing: auto;
+
+        font-style: normal;
+        font-variation-settings: "wdth" 100;
+      }
+
+      .jeet {
+        font-family: "Covered By Your Grace", cursive;
+      }
 
 
-
-        .ins {
-            font-family: "Instrument Sans", sans-serif;
-            font-optical-sizing: auto;
-
-            font-style: normal;
-            font-variation-settings:
-                "wdth" 100;
-        }
+.cor {
+  font-family: "Cormorant SC", serif;
+  font-weight: 400;
+  font-style: normal;
+}
     </style>
 
-<meta charset="UTF-8"> <link rel="stylesheet" href="./style.css" />
-</head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
 
-<body class="font-sans bg-gray-100">
-
+  <body class="font-sans bg-gray-100">
     <!-- Navbar -->
-    <nav class="bg-[#000957] p-4 ">
-        <div class="max-w-8xl mx-auto px-2 sm:px-6 lg:px-8">
-            <div class="relative flex items-center justify-between h-10">
-                <!-- Logo Section -->
-                <div class="flex-1 flex items-center justify-start">
-                    <div class="  flex-shrink-0 text-white text-4xl ins font-semibold">
-                        Vini Kaul
-                    </div>
-                </div>
-
-                <!-- Hamburger Icon (on small screens) -->
-                <div class="absolute inset-y-0 right-0 flex items-center sm:hidden">
-                    <button onclick="toggleMenu()"
-                        class="text-white inline-flex items-center justify-center p-2 rounded-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-white">
-                        <span class="sr-only">Open main menu</span>
-                        <svg class="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor"
-                            viewBox="0 0 24 24" stroke-width="2" aria-hidden="true">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"></path>
-                        </svg>
-                    </button>
-                </div>
-
-                <!-- Desktop Menu Links (hidden on small screens) -->
-                <div class="hidden  sm:block sm:ml-6">
-                    <div class="flex  space-x-3">
-                        <a href="#" class="text-white text-[1vw] ins  px-3 py-2 rounded-md  font-medium">Tech Leader</a>
-                        <a href="#"
-                            class="text-white text-[1vw] ins  px-3 py-2 rounded-md  font-medium">Entrepreneur</a>
-                        <a href="#" class="text-white text-[1vw] ins  px-3 py-2 rounded-md  font-medium">Speaking</a>
-                        <a href="#" class="text-white text-[1vw] ins px-3 py-2 rounded-md  font-medium">Art</a>
-                        <a href="#" class="text-white text-[1vw] ins px-3 py-2 rounded-md  font-medium">Press</a>
-                        <button
-                            class="text-[#000957] text-[1vw] ins  bg-white px-8 py-2 rounded-3xl font-medium">Connect</button>
-                    </div>
-                </div>
-            </div>
+    <nav class="bg-[#FFFFFF] p-4">
+      <div class="max-w-8xl mx-auto px-2 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-10">
+          <!-- Left Navigation (nav items) -->
+          <div class="hidden sm:flex space-x-3">
+            <a href="#" class="text-black text-[1vw] font-medium px-3 py-2 rounded-md">Identity</a>
+            <a href="#" class="text-black text-[1vw] font-medium px-3 py-2 rounded-md">Speaking</a>
+            <a href="#" class="text-black text-[1vw] font-medium px-3 py-2 rounded-md">Book</a>
+            <a href="#" class="text-black text-[1vw] font-medium px-3 py-2 rounded-md">Art</a>
+          </div>
+    
+          <!-- Centered Logo (VINI) -->
+          <div class="flex-1 flex justify-center">
+            <div class="text-black cor text-4xl ">VINI KAUL</div>
+          </div>
+    
+          <!-- Right Connect Button and Links -->
+          <div class="hidden sm:flex space-x-3">
+            <a href="#" class="text-black text-[1vw] font-medium px-3 py-2 rounded-md">Press</a>
+            <a href="#" class="text-black text-[1vw] font-medium px-3 py-2 rounded-md">Fitness</a>
+            <button class="text-white text-[1vw] bg-[#5F60D9] px-8 py-2 rounded-3xl font-medium">Connect</button>
+          </div>
+    
+          <!-- Hamburger Icon (on mobile screens) -->
+          <div class="sm:hidden flex items-center">
+            <button onclick="toggleMenu()" class="text-black inline-flex items-center justify-center p-2 rounded-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-white">
+              <span class="sr-only">Open main menu</span>
+              <svg class="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"></path>
+              </svg>
+            </button>
+          </div>
         </div>
-
+    
         <!-- Mobile Menu (Initially Hidden) -->
         <div class="sm:hidden hidden" id="menu">
-            <div class="px-2 pt-2 pb-3 space-y-1">
-                <a href="#"
-                    class="text-white text-xl hover:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium">Home</a>
-                <a href="#"
-                    class="text-white text-xl hover:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium">About</a>
-                <a href="#"
-                    class="text-white text-xl hover:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium">Services</a>
-                <a href="#"
-                    class="text-white  text-xl hover:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium">Contact</a>
-                <a href="#"
-                    class="text-white  text-xl hover:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium">Connect</a>
-            </div>
+          <div class="px-2  pt-5 pb-3 space-y-1">
+            <a href="#" class="text-black text-xl text-center hover:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium">Identity</a>
+            <a href="#" class="text-black text-xl text-center hover:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium">Speaking</a>
+            <a href="#" class="text-black text-xl text-center hover:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium">Book</a>
+            <a href="#" class="text-black text-xl text-center hover:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium">Art</a>
+            <a href="#" class="text-black text-xl hover:bg-gray-700 text-center block px-3 py-2 rounded-md text-base font-medium">Press</a>
+            <a href="#" class="text-black text-xl hover:bg-gray-700 block px-3 text-center py-2 rounded-md text-base font-medium">Fitness</a>
+            <a href="#" class="text-black text-xl hover:bg-gray-700 block px-3 py-2 text-center  rounded-md text-base font-medium">Connect</a>
+          </div>
         </div>
+      </div>
     </nav>
-
-
-
-
-
-
-
-
-
+    
+    <!-- JavaScript to toggle the mobile menu -->
+    <script>
+      function toggleMenu() {
+        const menu = document.getElementById('menu');
+        menu.classList.toggle('hidden');
+      }
+    </script>
+    
 
     <!-- <section class="relative bg-white  text-black py-16 px-6 sm:px-12 lg:px-16">
         <div class="container mx-auto flex flex-col lg:flex-row items-center space-y-8 lg:space-y-0 lg:space-x-12">
@@ -136,325 +145,417 @@
         </div>
     </section> -->
 
-
     <div
-        class="bg-[url('https://suzywelch.wpenginepowered.com/wp-content/uploads/2024/07/Hero-2-1.jpg')] h-[180vw] sm:h-[55vw] bg-center bg-cover bg-no-repeat">
-        <!-- Main Title -->
-        <h1
-            class="sm:p-4 sm:pl-0 pl-2 w-[80%] absolute  sm:mt-[20vw] mt-[80vw] text-[#FFF2AE] md:ml-[15vw] sm:text-center sm:w-[70vw] text-[13vw] leading-[12vw] sm:text-[5.7vw] sm:leading-[5.5vw] font-medium">
-            Tech Leader, Corporate Executive, Investor
-        </h1>
+      class="bg-[url('f3hero.png')] h-[180vw] sm:h-[55vw] bg-center bg-cover bg-no-repeat"
+    >
+      <!-- Main Title -->
+      <h1
+        class="sm:p-4 sm:pl-0 pl-2 w-[100%] absolute sm:mt-[20vw] mt-[80vw] text-[#FFFFFF] md:ml-[15vw] sm:text-center text-center sm:w-[70vw] text-[13vw] leading-[12vw] sm:text-[5.7vw] sm:leading-[5.5vw] font-medium"
+      >
+        Vini Kaul - <br />
+        Tech Leader, Corporate Executive, Investor
+      </h1>
 
-        <!-- Paragraph Text -->
-        <p
-            class="sm:p-4 sm:w-[50vw] absolute sm:mt-[33vw] mt-[141vw] text-[#FFF2AE] sm:ml-[25vw]  mx-auto text-left sm:text-center sm:w-[48vw] text-[4vw]   sm:text-[1.6vw] leading-[5.5vw] w-[70vw] ml-[3vw] sm:text-[1.4vw] sm:leading-[2vw] font-medium">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae excepturi inventore nam exercitationem
-            similique officiis?
-
-            <!-- Optional Subheading (hidden for now) -->
-            <!-- <h2 class="sm:pl-5 text-[#1D1D1F] md:ml-[18vw] md:text-center pl-3 font-semibold sm:mt-[1vw] mt-[5vw] sm:font-500 text-[4.3vw] md:text-[1.8vw] sm:text-[1.5vw] leading-[5.4vw] lg:leading-8 md:leading-5 sm:w-[60vw]">
-           NAME K is a Corporate leader in tech and sales; co-president and Top 100 Woman of the Future in Emerging Tech. Gold medalist engineer, investor, mentor, and keynote speaker with ties to Yale and Harvard.
-        </h2> -->
+      <!-- Paragraph Text -->
     </div>
 
-
+    <!-- for laptop screen -->
+    <div class="text-black bg-white">
+      <h2
+        class="mx-[4vw] ins italic text-[5vw] sm:text-[1.7vw] sm:leading-[2.7vw] p-[5vw] text-center align-center"
+      >
+        Joseph Bradley is a trailblazing thought leader redefining what’s
+        possible in the age of AI and digital transformation. As a Silicon
+        Valley and Middle East business executive, he has not only shaped the
+        future of cities, businesses, and individuals—he has reimagined what
+        they can become. Known as a captivating storyteller and visionary
+        thinker, he inspires audiences to embrace innovation, unlock hidden
+        potential, and take bold leaps into the future. He is the Chief
+        Executive Officer of TONOMUS, a NEOM company, and the author of the
+        transformative book Questioneering.
+      </h2>
+    </div>
 
     <!-- For Laptop Screens-->
     <div class="sm:block hidden">
-        <div class="md:flex sm:mb-0 mb-[0vw] h-[190vw] sm:h-[50vw] bg-white text-black">
-
-            <div class="sm:w-[50vw] h-[100vw] px-[4vw] py-[4vw] sm:h-[50vw]"><img
-                    class=" h-[100vw] sm:h-[40vw]  w-[90vw]"
-                    src="https://images.squarespace-cdn.com/content/v1/65dd943c675b6263151003f7/795e70da-b319-4d41-a641-2211a28dc41e/Maha+Abouelenein+at+Collision+2024.jpeg?format=2500w" />
-            </div>
-
-
-
-            <div class="sm:w-[50vw] sm:mt-0 mt-[10vw]">
-                <h1
-                    class="p-[4vw] leading-[6.9vw] sm:leading-[3.4vw] text-left font-semibold sm:pb-8 mx-4 sm:mx-0 pt-[0vw] sm:pt-[10vw] text-[6vw] text-black sm:text-[3.2vw]">
-                    Growing up between two cultures, I learned early on that communication is a powerful bridge.</h1>
-                <h3 class="p-[4vw] sm:leading-[1.7vw] sm:mx-0 mx-3  pt-[0vw] text-[3.4vw] sm:text-[1.3vw]">Lorem ipsum
-                    dolor sit amet consectetur adipisicing elit. Ad cupiditate, odio et excepturi, corporis repudiandae
-                    quae nam non dolorem quibusdam accusamus aut quo praesentium pariatur molestias tenetur, id velit
-                    dolorum! </h3>
-                <button
-                    class="px-16 ml-[6vw] sm:ml-[4vw] py-4 text-black bg-[#FCEA02] items-left text-xl font-medium rounded-3xl bg-[#FCEA02]">Button</button>
-            </div>
-
-
+      <div
+        class="md:flex sm:mb-0 mb-[0vw] h-[190vw] sm:h-[50vw] bg-white text-black"
+      >
+        <div class="sm:w-[50vw] h-[100vw] px-[4vw] py-[4vw] sm:h-[50vw]">
+          <img
+            class="h-[100vw] sm:h-[40vw] w-[90vw]"
+            src="https://images.squarespace-cdn.com/content/v1/65dd943c675b6263151003f7/795e70da-b319-4d41-a641-2211a28dc41e/Maha+Abouelenein+at+Collision+2024.jpeg?format=2500w"
+          />
         </div>
-
-    </div>
-
-
-    
-
-
-
-
-        <!-- a section with some spacing around the image like the component -->
-
-  <!-- For Mobile Screen Hero (1)-->
-
-  <div class="block sm:hidden">
-    <div class="md:flex sm:mb-0 mb-[0vw] h-[235vw] sm:h-[50vw] bg-white text-black">
-
-        <div class="sm:w-[50vw] h-[100vw] px-[4vw] py-[4vw] sm:h-[50vw]"><img
-                class=" h-[100vw] sm:h-[50vw]  w-[90vw]"
-                src="https://images.squarespace-cdn.com/content/v1/65dd943c675b6263151003f7/795e70da-b319-4d41-a641-2211a28dc41e/Maha+Abouelenein+at+Collision+2024.jpeg?format=2500w" />
-        </div>
-
-
 
         <div class="sm:w-[50vw] sm:mt-0 mt-[10vw]">
-            <h1
-                class="p-[4vw] leading-[9vw] sm:leading-[3.4vw] text-left font-semibold sm:pb-8 mx-3 sm:mx-0 pt-[0vw] sm:pt-[10vw] text-[8vw] text-black sm:text-[3.2vw]">
-                Growing up between two cultures, I learned early on that communication is a powerful bridge.
-            </h1>
-            <h3 class="p-[4vw] sm:leading-[1.7vw] sm:mx-0 mx-3 ins pt-[2vw] text-[4.7vw] sm:text-[1.3vw]">Lorem
-                ipsum dolor sit amet consectetur adipisicing elit. Ad cupiditate, odio et excepturi, corporis
-                repudiandae quae nam non dolorem quibusdam accusamus aut quo praesentium pariatur molestias
-                tenetur, id velit dolorum! </h3>
-            <button
-                class="px-16 ml-[6vw] sm:ml-[4vw] py-3 text-black bg-[#FCEA02] items-left text-xl font-medium rounded-3xl bg-[#FCEA02]">Button</button>
+          <h1
+            class="p-[4vw] leading-[6.9vw] sm:leading-[3.4vw] text-left font-semibold sm:pb-8 mx-4 sm:mx-0 pt-[0vw] sm:pt-[10vw] text-[6vw] text-black sm:text-[3.2vw]"
+          >
+            Growing up between two cultures, I learned early on that
+            communication is a powerful bridge.
+          </h1>
+          <h3
+            class="p-[4vw] sm:leading-[1.7vw] sm:mx-0 mx-3 pt-[0vw] text-[3.4vw] sm:text-[1.3vw]"
+          >
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+            cupiditate, odio et excepturi, corporis repudiandae quae nam non
+            dolorem quibusdam accusamus aut quo praesentium pariatur molestias
+            tenetur, id velit dolorum!
+          </h3>
+          <button
+            class="px-16 ml-[6vw] sm:ml-[4vw] py-4 text-white items-left text-xl font-medium rounded-3xl bg-[#16404D]"
+          >
+            Button
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- a section with some spacing around the image like the component -->
+
+    <!-- For Mobile Screen Hero (1)-->
+
+    <div class="block sm:hidden">
+      <div
+        class="md:flex sm:mb-0 mb-[0vw] h-[235vw] sm:h-[50vw] bg-white text-black"
+      >
+        <div class="sm:w-[50vw] h-[100vw] px-[4vw] py-[4vw] sm:h-[50vw]">
+          <img
+            class="h-[100vw] sm:h-[50vw] w-[90vw]"
+            src="https://images.squarespace-cdn.com/content/v1/65dd943c675b6263151003f7/795e70da-b319-4d41-a641-2211a28dc41e/Maha+Abouelenein+at+Collision+2024.jpeg?format=2500w"
+          />
         </div>
 
-
+        <div class="sm:w-[50vw] sm:mt-0 mt-[10vw]">
+          <h1
+            class="p-[4vw] leading-[9vw] sm:leading-[3.4vw] text-left font-semibold sm:pb-8 mx-3 sm:mx-0 pt-[0vw] sm:pt-[10vw] text-[8vw] text-black sm:text-[3.2vw]"
+          >
+            Growing up between two cultures, I learned early on that
+            communication is a powerful bridge.
+          </h1>
+          <h3
+            class="p-[4vw] sm:leading-[1.7vw] sm:mx-0 mx-3 ins pt-[2vw] text-[4.7vw] sm:text-[1.3vw]"
+          >
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+            cupiditate, odio et excepturi, corporis repudiandae quae nam non
+            dolorem quibusdam accusamus aut quo praesentium pariatur molestias
+            tenetur, id velit dolorum!
+          </h3>
+          <button
+            class="px-16 ml-[6vw] sm:ml-[4vw] py-3 text-black bg-[#FCEA02] items-left text-xl font-medium rounded-3xl bg-[#FCEA02]"
+          >
+            Button
+          </button>
+        </div>
+      </div>
     </div>
 
-    </div>
-
-            <!--
+    <!--
             For Laptop Swap left right Image -->
 
-            <div class="hidden sm:block md:flex sm:mb-0 mb-[200vw] h-[190vw] sm:h-[50vw] bg-[#FFEB00] text-[#000957]">
-    
-                <!-- Move text to the left -->
-                <div class="sm:w-[50vw] sm:mt-0 mt-[10vw]">
-                    <h1 class="p-[4vw] leading-[6vw] sm:leading-[3.2vw] text-left font-semibold sm:pb-8 mx-4 sm:mx-0 pt-[0vw] sm:pt-[10vw] text-[6vw] text-[#000957] sm:text-[3.2vw]">
-                        Growing up between two cultures, I learned early on that communication is a powerful bridge.
-                    </h1>
-                    <h3 class="p-[4vw] sm:leading-[1.7vw] sm:mx-0 mx-3 pt-[0vw] text-[3.4vw] sm:text-[1.3vw]">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad cupiditate, odio et excepturi, corporis repudiandae quae nam non dolorem quibusdam accusamus aut quo praesentium pariatur molestias tenetur, id velit dolorum!
-                    </h3>
-                    <button class="px-16 ml-[6vw] sm:ml-[4vw] py-4 text-[#FFEB00]  items-left text-xl font-medium rounded-3xl bg-[#000957]">Button</button>
-                </div>
-            
-                <!-- Move image to the right -->
-                <div class="sm:w-[50vw] h-[100vw] px-[4vw] py-[4vw] sm:h-[50vw]">
-                    <img class=" h-[100vw] sm:h-[40vw] w-[100vw]" src="https://suzywelch.wpenginepowered.com/wp-content/uploads/2024/05/community_1.jpg"/>
-                </div>
-            
-            </div>
+    <div
+      class="hidden sm:block md:flex sm:mb-0 mb-[200vw] h-[190vw] sm:h-[50vw] bg-[#5F60D9] text-white"
+    >
+      <!-- Move text to the left -->
+      <div class="sm:w-[50vw] sm:mt-0 mt-[10vw]">
+        <h1
+          class="p-[4vw] leading-[6vw] sm:leading-[3.2vw] text-left font-semibold sm:pb-8 mx-4 sm:mx-0 pt-[0vw] sm:pt-[10vw] text-[6vw] text-[#F6F8D5] sm:text-[3.2vw]"
+        >
+          Growing up between two cultures, I learned early on that communication
+          is a powerful bridge.
+        </h1>
+        <h3
+          class="p-[4vw] sm:leading-[1.7vw] sm:mx-0 mx-3 pt-[0vw] text-[3.4vw] sm:text-[1.3vw]"
+        >
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+          cupiditate, odio et excepturi, corporis repudiandae quae nam non
+          dolorem quibusdam accusamus aut quo praesentium pariatur molestias
+          tenetur, id velit dolorum!
+        </h3>
+        <button
+          class="px-16 ml-[6vw] sm:ml-[4vw] py-4 text-[#205781] items-left text-xl font-medium rounded-3xl bg-[#F6F8D5]"
+        >
+          Button
+        </button>
+      </div>
 
+      <!-- Move image to the right -->
+      <div class="sm:w-[50vw] h-[100vw] px-[4vw] py-[4vw] sm:h-[50vw]">
+        <img
+          class="h-[100vw] sm:h-[40vw] w-[100vw]"
+          src="https://suzywelch.wpenginepowered.com/wp-content/uploads/2024/05/community_1.jpg"
+        />
+      </div>
+    </div>
 
-
-            <!--
+    <!--
               For Mobile Screen Hero (2) But left and right dont matter on mobile screens-->
 
-              <div class="block sm:hidden">
-                <div class="md:flex sm:mb-0 mb-[0vw] h-[235vw] sm:h-[50vw] bg-black text-white">
-    
-                    <div class="sm:w-[50vw] h-[100vw] px-[4vw] py-[4vw] sm:h-[50vw]"><img
-                            class=" h-[100vw] sm:h-[50vw]  w-[90vw]"
-                            src="https://images.squarespace-cdn.com/content/v1/65dd943c675b6263151003f7/795e70da-b319-4d41-a641-2211a28dc41e/Maha+Abouelenein+at+Collision+2024.jpeg?format=2500w" />
-                    </div>
-    
-    
-    
-                    <div class="sm:w-[50vw] sm:mt-0 mt-[10vw]">
-                        <h1
-                            class="p-[4vw] leading-[9vw] sm:leading-[3.4vw] text-left font-semibold sm:pb-8 mx-3 sm:mx-0 pt-[0vw] sm:pt-[10vw] text-[8vw] text-white sm:text-[3.2vw]">
-                            Growing up between two cultures, I learned early on that communication is a powerful bridge.
-                        </h1>
-                        <h3 class="p-[4vw] sm:leading-[1.7vw] sm:mx-0 mx-3 ins pt-[2vw] text-[4.7vw] sm:text-[1.3vw]">Lorem
-                            ipsum dolor sit amet consectetur adipisicing elit. Ad cupiditate, odio et excepturi, corporis
-                            repudiandae quae nam non dolorem quibusdam accusamus aut quo praesentium pariatur molestias
-                            tenetur, id velit dolorum! </h3>
-                        <button
-                            class="px-16 ml-[6vw] sm:ml-[4vw] py-3 text-black bg-[#FCEA02] items-left text-xl font-medium rounded-3xl bg-[#FCEA02]">Button</button>
-                    </div>
-    
-    
-                </div>
-    
-                </div>
+    <div class="block sm:hidden">
+      <div
+        class="md:flex sm:mb-0 mb-[0vw] h-[235vw] sm:h-[50vw] bg-black text-white"
+      >
+        <div class="sm:w-[50vw] h-[100vw] px-[4vw] py-[4vw] sm:h-[50vw]">
+          <img
+            class="h-[100vw] sm:h-[50vw] w-[90vw]"
+            src="https://images.squarespace-cdn.com/content/v1/65dd943c675b6263151003f7/795e70da-b319-4d41-a641-2211a28dc41e/Maha+Abouelenein+at+Collision+2024.jpeg?format=2500w"
+          />
+        </div>
 
-                <div class="logos">
-                    <div class="logos-slide">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/BMW.svg"/>
-                        <img src="./logos/Rolls.png" />
-                        <img src="https://upload.wikimedia.org/wikipedia/sco/d/d1/Ferrari-Logo.svg"/>
-                        <img src="https://upload.wikimedia.org/wikipedia/fr/c/c2/Logo_Aston_Martin.svg" />
-                     
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/BMW.svg"/>
-                        <img src="logos/nike-4-logo-svgrepo-com.svg"/>
-                        <img src="./logos/Rolls.png" />
-                        <img src="https://upload.wikimedia.org/wikipedia/fr/c/c2/Logo_Aston_Martin.svg" />
-                        <img src="https://upload.wikimedia.org/wikipedia/sco/d/d1/Ferrari-Logo.svg"/>
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/Mercedes-Benz_Star.svg"/>
-                     
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/BMW.svg"/>
-                        <img src="logos/nike-4-logo-svgrepo-com.svg"/>
-                        <img src="https://upload.wikimedia.org/wikipedia/fr/c/c2/Logo_Aston_Martin.svg" />
-                        <img src="https://upload.wikimedia.org/wikipedia/sco/d/d1/Ferrari-Logo.svg"/>
-                        <img src="https://upload.wikimedia.org/wikipedia/fr/c/c2/Logo_Aston_Martin.svg" />
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/Mercedes-Benz_Star.svg"/>
-            
-                        <img src="https://upload.wikimedia.org/wikipedia/fr/c/c2/Logo_Aston_Martin.svg" />
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/BMW.svg"/>
-                        <img src="./logos/Rolls.png" />
-                        <img src="https://upload.wikimedia.org/wikipedia/sco/d/d1/Ferrari-Logo.svg"/>
-                     
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/Mercedes-Benz_Star.svg"/>
-                        <img src="logos/nike-4-logo-svgrepo-com.svg"/>
-                        <img src="./logos/Rolls.png" />
-                        <img src="https://upload.wikimedia.org/wikipedia/sco/d/d1/Ferrari-Logo.svg"/>
-                     
-                       
-                        <img src="logos/nike-4-logo-svgrepo-com.svg"/>
-                        <img src="./logos/Rolls.png" />
-                        <img src="https://upload.wikimedia.org/wikipedia/sco/d/d1/Ferrari-Logo.svg"/>
-                     
-                       
-                        <img src="logos/nike-4-logo-svgrepo-com.svg"/>
-                        
-                    </div>
-                </div>
+        <div class="sm:w-[50vw] sm:mt-0 mt-[10vw]">
+          <h1
+            class="p-[4vw] leading-[9vw] sm:leading-[3.4vw] text-left font-semibold sm:pb-8 mx-3 sm:mx-0 pt-[0vw] sm:pt-[10vw] text-[8vw] text-white sm:text-[3.2vw]"
+          >
+            Growing up between two cultures, I learned early on that
+            communication is a powerful bridge.
+          </h1>
+          <h3
+            class="p-[4vw] sm:leading-[1.7vw] sm:mx-0 mx-3 ins pt-[2vw] text-[4.7vw] sm:text-[1.3vw]"
+          >
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+            cupiditate, odio et excepturi, corporis repudiandae quae nam non
+            dolorem quibusdam accusamus aut quo praesentium pariatur molestias
+            tenetur, id velit dolorum!
+          </h3>
+          <button
+            class="px-16 ml-[6vw] sm:ml-[4vw] py-3 text-black bg-[#FCEA02] items-left text-xl font-medium rounded-3xl bg-[#FCEA02]"
+          >
+            Button
+          </button>
+        </div>
+      </div>
+    </div>
 
+    <div class="logos">
+      <div class="logos-slide">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/4/44/BMW.svg"
+        />
+        <img src="./logos/Rolls.png" />
+        <img
+          src="https://upload.wikimedia.org/wikipedia/sco/d/d1/Ferrari-Logo.svg"
+        />
+        <img
+          src="https://upload.wikimedia.org/wikipedia/fr/c/c2/Logo_Aston_Martin.svg"
+        />
 
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/4/44/BMW.svg"
+        />
+        <img src="logos/nike-4-logo-svgrepo-com.svg" />
+        <img src="./logos/Rolls.png" />
+        <img
+          src="https://upload.wikimedia.org/wikipedia/fr/c/c2/Logo_Aston_Martin.svg"
+        />
+        <img
+          src="https://upload.wikimedia.org/wikipedia/sco/d/d1/Ferrari-Logo.svg"
+        />
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/b/b8/Mercedes-Benz_Star.svg"
+        />
 
-                <!-- Copy paste laptop and mobile screen for 2nd time,,, 2 componetns are done,,, incoming 2 more -->
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/4/44/BMW.svg"
+        />
+        <img src="logos/nike-4-logo-svgrepo-com.svg" />
+        <img
+          src="https://upload.wikimedia.org/wikipedia/fr/c/c2/Logo_Aston_Martin.svg"
+        />
+        <img
+          src="https://upload.wikimedia.org/wikipedia/sco/d/d1/Ferrari-Logo.svg"
+        />
+        <img
+          src="https://upload.wikimedia.org/wikipedia/fr/c/c2/Logo_Aston_Martin.svg"
+        />
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/b/b8/Mercedes-Benz_Star.svg"
+        />
 
-                  <!-- For Laptop Screens-->
+        <img
+          src="https://upload.wikimedia.org/wikipedia/fr/c/c2/Logo_Aston_Martin.svg"
+        />
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/4/44/BMW.svg"
+        />
+        <img src="./logos/Rolls.png" />
+        <img
+          src="https://upload.wikimedia.org/wikipedia/sco/d/d1/Ferrari-Logo.svg"
+        />
+
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/b/b8/Mercedes-Benz_Star.svg"
+        />
+        <img src="logos/nike-4-logo-svgrepo-com.svg" />
+        <img src="./logos/Rolls.png" />
+        <img
+          src="https://upload.wikimedia.org/wikipedia/sco/d/d1/Ferrari-Logo.svg"
+        />
+
+        <img src="logos/nike-4-logo-svgrepo-com.svg" />
+        <img src="./logos/Rolls.png" />
+        <img
+          src="https://upload.wikimedia.org/wikipedia/sco/d/d1/Ferrari-Logo.svg"
+        />
+
+        <img src="logos/nike-4-logo-svgrepo-com.svg" />
+      </div>
+    </div>
+
+    <!-- Copy paste laptop and mobile screen for 2nd time,,, 2 componetns are done,,, incoming 2 more -->
+
+    <!-- For Laptop Screens-->
     <div class="sm:block hidden">
-        <div class="md:flex sm:mb-0 mb-[0vw] h-[190vw] sm:h-[50vw] bg-[#660066] text-white">
-
-            <div class="sm:w-[50vw] h-[100vw] px-[4vw] py-[4vw] sm:h-[50vw]"><img
-                    class=" h-[100vw] sm:h-[40vw]  w-[90vw]"
-                    src="https://images.squarespace-cdn.com/content/v1/65dd943c675b6263151003f7/795e70da-b319-4d41-a641-2211a28dc41e/Maha+Abouelenein+at+Collision+2024.jpeg?format=2500w" />
-            </div>
-
-
-
-            <div class="sm:w-[50vw] sm:mt-0 mt-[10vw]">
-                <h1
-                    class="p-[4vw] leading-[6.9vw] sm:leading-[3.4vw] text-left font-semibold sm:pb-8 mx-4 sm:mx-0 pt-[0vw] sm:pt-[10vw] text-[6vw] text-white sm:text-[3.2vw]">
-                    Growing up between two cultures, I learned early on that communication is a powerful bridge.</h1>
-                <h3 class="p-[4vw] sm:leading-[1.7vw] sm:mx-0 mx-3  pt-[0vw] text-[3.4vw] sm:text-[1.3vw]">Lorem ipsum
-                    dolor sit amet consectetur adipisicing elit. Ad cupiditate, odio et excepturi, corporis repudiandae
-                    quae nam non dolorem quibusdam accusamus aut quo praesentium pariatur molestias tenetur, id velit
-                    dolorum! </h3>
-                <button
-                    class="px-16 ml-[6vw] sm:ml-[4vw] py-4 text-[#000957] bg-white items-left text-xl font-medium rounded-3xl bg-[#000957]">Button</button>
-            </div>
-
-
+      <div
+        class="md:flex sm:mb-0 mb-[0vw] h-[190vw] sm:h-[50vw] bg-[#F6F8D5] text-black"
+      >
+        <div class="sm:w-[50vw] h-[100vw] px-[4vw] py-[4vw] sm:h-[50vw]">
+          <img
+            class="h-[100vw] sm:h-[40vw] w-[90vw]"
+            src="https://images.squarespace-cdn.com/content/v1/65dd943c675b6263151003f7/795e70da-b319-4d41-a641-2211a28dc41e/Maha+Abouelenein+at+Collision+2024.jpeg?format=2500w"
+          />
         </div>
-
-    </div>
-
-
-    
-
-
-
-
-        <!-- a section with some spacing around the image like the component -->
-
-  <!-- For Mobile Screen Hero (1)-->
-
-  <div class="block sm:hidden">
-    <div class="md:flex sm:mb-0 mb-[0vw] h-[235vw] sm:h-[50vw] bg-[#000957] text-white">
-
-        <div class="sm:w-[50vw] h-[100vw] px-[4vw] py-[4vw] sm:h-[50vw]"><img
-                class=" h-[100vw] sm:h-[50vw]  w-[90vw]"
-                src="https://images.squarespace-cdn.com/content/v1/65dd943c675b6263151003f7/795e70da-b319-4d41-a641-2211a28dc41e/Maha+Abouelenein+at+Collision+2024.jpeg?format=2500w" />
-        </div>
-
-
 
         <div class="sm:w-[50vw] sm:mt-0 mt-[10vw]">
-            <h1
-                class="p-[4vw] leading-[9vw] sm:leading-[3.4vw] text-left font-semibold sm:pb-8 mx-3 sm:mx-0 pt-[0vw] sm:pt-[10vw] text-[8vw] text-white sm:text-[3.2vw]">
-                Growing up between two cultures, I learned early on that communication is a powerful bridge.
-            </h1>
-            <h3 class="p-[4vw] sm:leading-[1.7vw] sm:mx-0 mx-3 ins pt-[2vw] text-[4.7vw] sm:text-[1.3vw]">Lorem
-                ipsum dolor sit amet consectetur adipisicing elit. Ad cupiditate, odio et excepturi, corporis
-                repudiandae quae nam non dolorem quibusdam accusamus aut quo praesentium pariatur molestias
-                tenetur, id velit dolorum! </h3>
-            <button
-                class="px-16 ml-[6vw] sm:ml-[4vw] py-3 text-white bg-[#FCEA02] items-left text-xl font-medium rounded-3xl bg-[#000957]">Button</button>
+          <h1
+            class="p-[4vw] leading-[6.9vw] sm:leading-[3.4vw] text-left font-semibold sm:pb-8 mx-4 sm:mx-0 pt-[0vw] sm:pt-[10vw] text-[6vw] text-black sm:text-[3.2vw]"
+          >
+            Growing up between two cultures, I learned early on that
+            communication is a powerful bridge.
+          </h1>
+          <h3
+            class="p-[4vw] sm:leading-[1.7vw] sm:mx-0 mx-3 pt-[0vw] text-[3.4vw] sm:text-[1.3vw]"
+          >
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+            cupiditate, odio et excepturi, corporis repudiandae quae nam non
+            dolorem quibusdam accusamus aut quo praesentium pariatur molestias
+            tenetur, id velit dolorum!
+          </h3>
+          <button
+            class="px-16 ml-[6vw] sm:ml-[4vw] py-4 text-white items-left text-xl font-medium rounded-3xl bg-[#112D4E]"
+          >
+            Button
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- a section with some spacing around the image like the component -->
+
+    <!-- For Mobile Screen Hero (1)-->
+
+    <div class="block sm:hidden">
+      <div
+        class="md:flex sm:mb-0 mb-[0vw] h-[235vw] sm:h-[50vw] bg-[#000957] text-white"
+      >
+        <div class="sm:w-[50vw] h-[100vw] px-[4vw] py-[4vw] sm:h-[50vw]">
+          <img
+            class="h-[100vw] sm:h-[50vw] w-[90vw]"
+            src="https://images.squarespace-cdn.com/content/v1/65dd943c675b6263151003f7/795e70da-b319-4d41-a641-2211a28dc41e/Maha+Abouelenein+at+Collision+2024.jpeg?format=2500w"
+          />
         </div>
 
-
+        <div class="sm:w-[50vw] sm:mt-0 mt-[10vw]">
+          <h1
+            class="p-[4vw] leading-[9vw] sm:leading-[3.4vw] text-left font-semibold sm:pb-8 mx-3 sm:mx-0 pt-[0vw] sm:pt-[10vw] text-[8vw] text-white sm:text-[3.2vw]"
+          >
+            Growing up between two cultures, I learned early on that
+            communication is a powerful bridge.
+          </h1>
+          <h3
+            class="p-[4vw] sm:leading-[1.7vw] sm:mx-0 mx-3 ins pt-[2vw] text-[4.7vw] sm:text-[1.3vw]"
+          >
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+            cupiditate, odio et excepturi, corporis repudiandae quae nam non
+            dolorem quibusdam accusamus aut quo praesentium pariatur molestias
+            tenetur, id velit dolorum!
+          </h3>
+          <button
+            class="px-16 ml-[6vw] sm:ml-[4vw] py-3 text-white bg-[#FCEA02] items-left text-xl font-medium rounded-3xl bg-[#000957]"
+          >
+            Button
+          </button>
+        </div>
+      </div>
     </div>
 
-    </div>
-
- 
-  
-    
-
-            <!--
+    <!--
             For Laptop Swap left right Image -->
 
-            <div class="hidden sm:block md:flex sm:mb-0 mb-[200vw] h-[190vw] sm:h-[50vw] bg-white text-[#000957]">
-    
-                <!-- Move text to the left -->
-                <div class="sm:w-[50vw] sm:mt-0 mt-[10vw]">
-                    <h1 class="p-[4vw] leading-[6vw] sm:leading-[3.2vw] text-left font-semibold sm:pb-8 mx-4 sm:mx-0 pt-[0vw] sm:pt-[10vw] text-[6vw] text-[#000957] sm:text-[3.2vw]">
-                        Growing up between two cultures, I learned early on that communication is a powerful bridge.
-                    </h1>
-                    <h3 class="p-[4vw] sm:leading-[1.7vw] sm:mx-0 mx-3 pt-[0vw] text-[3.4vw] sm:text-[1.3vw]">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad cupiditate, odio et excepturi, corporis repudiandae quae nam non dolorem quibusdam accusamus aut quo praesentium pariatur molestias tenetur, id velit dolorum!
-                    </h3>
-                    <button class="px-16 ml-[6vw] sm:ml-[4vw] py-4 text-white bg-[#000957] items-left text-xl font-medium rounded-3xl ">Button</button>
-                </div>
-            
-                <!-- Move image to the right -->
-                <div class="sm:w-[50vw] h-[100vw] px-[4vw] py-[4vw] sm:h-[50vw]">
-                    <img class=" h-[100vw] sm:h-[40vw] w-[100vw]" src="https://suzywelch.wpenginepowered.com/wp-content/uploads/2024/05/community_1.jpg"/>
-                </div>
-            
-            </div>
+    <div
+      class="hidden sm:block md:flex sm:mb-0 mb-[200vw] h-[190vw] sm:h-[50vw] bg-white text-[#000957]"
+    >
+      <!-- Move text to the left -->
+      <div class="sm:w-[50vw] sm:mt-0 mt-[10vw]">
+        <h1
+          class="p-[4vw] leading-[6vw] sm:leading-[3.2vw] text-left font-semibold sm:pb-8 mx-4 sm:mx-0 pt-[0vw] sm:pt-[10vw] text-[6vw] text-[#000957] sm:text-[3.2vw]"
+        >
+          Growing up between two cultures, I learned early on that communication
+          is a powerful bridge.
+        </h1>
+        <h3
+          class="p-[4vw] sm:leading-[1.7vw] sm:mx-0 mx-3 pt-[0vw] text-[3.4vw] sm:text-[1.3vw]"
+        >
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+          cupiditate, odio et excepturi, corporis repudiandae quae nam non
+          dolorem quibusdam accusamus aut quo praesentium pariatur molestias
+          tenetur, id velit dolorum!
+        </h3>
+        <button
+          class="px-16 ml-[6vw] sm:ml-[4vw] py-4 text-white bg-[#000957] items-left text-xl font-medium rounded-3xl"
+        >
+          Button
+        </button>
+      </div>
 
+      <!-- Move image to the right -->
+      <div class="sm:w-[50vw] h-[100vw] px-[4vw] py-[4vw] sm:h-[50vw]">
+        <img
+          class="h-[100vw] sm:h-[40vw] w-[100vw]"
+          src="https://suzywelch.wpenginepowered.com/wp-content/uploads/2024/05/community_1.jpg"
+        />
+      </div>
+    </div>
 
-
-            <!--
+    <!--
               For Mobile Screen Hero (2) But left and right dont matter on mobile screens-->
 
-              <div class="block sm:hidden">
-                <div class="md:flex sm:mb-0 mb-[0vw] h-[235vw] sm:h-[50vw] bg-black text-white">
-    
-                    <div class="sm:w-[50vw] h-[100vw] px-[4vw] py-[4vw] sm:h-[50vw]"><img
-                            class=" h-[100vw] sm:h-[50vw]  w-[90vw]"
-                            src="https://images.squarespace-cdn.com/content/v1/65dd943c675b6263151003f7/795e70da-b319-4d41-a641-2211a28dc41e/Maha+Abouelenein+at+Collision+2024.jpeg?format=2500w" />
-                    </div>
-    
-    
-    
-                    <div class="sm:w-[50vw] sm:mt-0 mt-[10vw]">
-                        <h1
-                            class="p-[4vw] leading-[9vw] sm:leading-[3.4vw] text-left font-semibold sm:pb-8 mx-3 sm:mx-0 pt-[0vw] sm:pt-[10vw] text-[8vw] text-white sm:text-[3.2vw]">
-                            Growing up between two cultures, I learned early on that communication is a powerful bridge.
-                        </h1>
-                        <h3 class="p-[4vw] sm:leading-[1.7vw] sm:mx-0 mx-3 ins pt-[2vw] text-[4.7vw] sm:text-[1.3vw]">Lorem
-                            ipsum dolor sit amet consectetur adipisicing elit. Ad cupiditate, odio et excepturi, corporis
-                            repudiandae quae nam non dolorem quibusdam accusamus aut quo praesentium pariatur molestias
-                            tenetur, id velit dolorum! </h3>
-                        <button
-                            class="px-16 ml-[6vw] sm:ml-[4vw] py-3 text-black bg-[#FCEA02] items-left text-xl font-medium rounded-3xl bg-[#FCEA02]">Button</button>
-                    </div>
-    
-    
-                </div>
-    
-                </div>
-            
+    <div class="block sm:hidden">
+      <div
+        class="md:flex sm:mb-0 mb-[0vw] h-[235vw] sm:h-[50vw] bg-black text-white"
+      >
+        <div class="sm:w-[50vw] h-[100vw] px-[4vw] py-[4vw] sm:h-[50vw]">
+          <img
+            class="h-[100vw] sm:h-[50vw] w-[90vw]"
+            src="https://images.squarespace-cdn.com/content/v1/65dd943c675b6263151003f7/795e70da-b319-4d41-a641-2211a28dc41e/Maha+Abouelenein+at+Collision+2024.jpeg?format=2500w"
+          />
+        </div>
 
-            <!-- 
+        <div class="sm:w-[50vw] sm:mt-0 mt-[10vw]">
+          <h1
+            class="p-[4vw] leading-[9vw] sm:leading-[3.4vw] text-left font-semibold sm:pb-8 mx-3 sm:mx-0 pt-[0vw] sm:pt-[10vw] text-[8vw] text-white sm:text-[3.2vw]"
+          >
+            Growing up between two cultures, I learned early on that
+            communication is a powerful bridge.
+          </h1>
+          <h3
+            class="p-[4vw] sm:leading-[1.7vw] sm:mx-0 mx-3 ins pt-[2vw] text-[4.7vw] sm:text-[1.3vw]"
+          >
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+            cupiditate, odio et excepturi, corporis repudiandae quae nam non
+            dolorem quibusdam accusamus aut quo praesentium pariatur molestias
+            tenetur, id velit dolorum!
+          </h3>
+          <button
+            class="px-16 ml-[6vw] sm:ml-[4vw] py-3 text-black bg-[#FCEA02] items-left text-xl font-medium rounded-3xl bg-[#FCEA02]"
+          >
+            Button
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- 
     <section class="relative bg-white  text-black py-16 px-6 sm:px-12 lg:px-16">
         <div class="container mx-auto flex flex-col lg:flex-row items-center space-y-8 lg:space-y-0 lg:space-x-12">
         
@@ -474,7 +575,7 @@
        
     </section>  -->
 
-            <!-- 
+    <!-- 
     <section class="relative bg-black  text-white py-16 px-6 sm:px-12 lg:px-16">
         <div class="container mx-auto flex flex-col lg:flex-row items-center space-y-8 lg:space-y-0 lg:space-x-12">
         
@@ -494,8 +595,7 @@
        
     </section>  -->
 
-
-            <!-- <section class="relative bg-white text-black py-16 px-6 sm:px-12 lg:px-16">
+    <!-- <section class="relative bg-white text-black py-16 px-6 sm:px-12 lg:px-16">
         <div class="container mx-auto flex flex-col lg:flex-row items-center space-y-8 lg:space-y-0 lg:space-x-12">
         
            
@@ -517,14 +617,10 @@
        
     </section>  -->
 
-
-            <!-- For Desktop
+    <!-- For Desktop
      -->
 
-
-
-
-            <!--
+    <!--
 
     For mobile 
 
@@ -532,7 +628,7 @@
     
     
     -->
-            <!-- 
+    <!-- 
     <div class=" ">
         <div class="md:flex sm:mb-0 mb-[0vw] h-[190vw] sm:h-[50vw] bg-black text-white">
 
@@ -549,18 +645,7 @@
       
      </div>  -->
 
-
-     
-
-     
-  
-    
-
- 
-
-
-
-<!-- 
+    <!-- 
 
             <section class="bg-white dark:bg-gray-900">
                 <div class="py-8 lg:py-16 mx-auto max-w-screen-xl px-4">
@@ -699,170 +784,176 @@
                 </div>
             </section> -->
 
-            <div class="page3 ">
-                <div class="text mt-[4vw]  sm:h-auto pl-[6vw] p-4 sm:p-6 pb-[1vw] bg-[#FFFFFF]">
-                    <h1 class="sm:text-[4vw]  text-[8vw] sm:text-center font-semibold sm:pl-7 text-[#1D1D1F] sm:pt-10">
-                        This is the news or press section</h1>
-                    <h1
-                        class="sm:text-[2.1vw] sm:text-center  text-[6.5vw] font-semibold mb-[4vw] sm:pl-7 text-[#86868B] sm:ml-auto sm:mr-auto sm:w-[50vw] w-[90vw] leading-[6.8vw] sm:leading-[2.4vw] font-500 mt-[10vw]   sm:mt-[2vw]">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore accusamus similique cupiditate aspernatur ratione eius voluptatum dolor
-                    </h1>
-
-                </div>
-
-
-                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-[1vw] mb-[4vw] mt-[1vw] ml-[1vw]">
-                    <div
-                        class="relative flex flex-col my-6 bg-[#000957] px-3 shadow-sm w-full sm:w-[45vw] md:w-[30.5vw] mx-auto">
-                        <div class="p-4">
-                            <h6 class="mb-2 mt-2 text-white leading-normal text-2xl uppercase">
-                                Special News Article
-                            </h6>
+    <div class="bg-white pt-[20vw] sm:pt-3 mt-[3vw] pb-[8vw]">
+      <h1
+        class="pb-[5vw] sm:text-[3vw] text-[7vw] sm:pl-7 ml-4 sm:ml-10 text-[#000000] w-[90vw] sm:leading-[5.4vw] leading-[5.4vw] text-center pt-[3vw]"
+      >
+        Highlights from my recent talks and events.
+      </h1>
+      <marquee BEHAVIOR="alternate" SCROLLAMOUNT="6" direction="left">
+        <div
+          class="flex ml-4 mt-[10vw] sm:pb-[4vw] pb-[14vw] px-[40vw] sm:mt-[3vw]"
+        >
+          <div
+            class="bg-white shadow-2xl rotate-[7deg] px-[1vw] w-[55vw] h-[60vw] sm:w-[21.7vw] mx-[1vw] sm:h-[30vw] pt-[2vw] pl-4"
+          >
+            <img
+              class="sm:h-[20vw] h-[40vw] pr-4 sm:w-[19vw] center"
+              src="https://images.unsplash.com/photo-1576085898323-218337e3e43c?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            />
+            <h3 class="jeet text-[5vw] sm:text-[2vw]">
+              TEDx something something
+            </h3>
+            <h3 class="jeet text-[5vw] sm:text-[2vw]">State, 2019</h3>
+          </div>
+          <div
+            class="bg-white shadow-2xl rotate-[-7deg] px-[1vw] w-[55vw] h-[60vw] sm:w-[21.7vw] mx-[1vw] sm:h-[30vw] pt-[2vw] pl-4"
+          >
+            <img
+              class="sm:h-[20vw] h-[40vw] pr-4 sm:w-[19vw] center"
+              src="https://images.unsplash.com/photo-1576085898323-218337e3e43c?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            />
+            <h3 class="jeet text-[5vw] sm:text-[2vw]">
+              TEDx something something
+            </h3>
+            <h3 class="jeet text-[5vw] sm:text-[2vw]">State, 2019</h3>
+          </div>
+          <div
+            class="bg-white shadow-2xl rotate-[7deg] px-[1vw] w-[55vw] h-[60vw] sm:w-[21.7vw] mx-[1vw] sm:h-[30vw] pt-[2vw] pl-4"
+          >
+            <img
+              class="sm:h-[20vw] h-[40vw] pr-4 sm:w-[19vw] center"
+              src="https://images.unsplash.com/photo-1576085898323-218337e3e43c?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            />
+            <h3 class="jeet text-[5vw] sm:text-[2vw]">
+              TEDx something something
+            </h3>
+            <h3 class="jeet text-[5vw] sm:text-[2vw]">State, 2019</h3>
+          </div>
+          <div
+            class="bg-white shadow-2xl rotate-[-7deg] px-[1vw] w-[60vw] h-[60vw] sm:w-[21.7vw] mx-[1vw] sm:h-[30vw] pt-[2vw] pl-4"
+          >
+            <img
+              class="sm:h-[20vw] h-[40vw] pr-4 sm:w-[19vw] center"
+              src="https://images.unsplash.com/photo-1576085898323-218337e3e43c?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            />
+            <h3 class="jeet text-[5vw] sm:text-[2vw]">
+              TEDx something something
+            </h3>
+            <h3 class="jeet text-[5vw] sm:text-[2vw]">State, 2019</h3>
+          </div>
+          <div
+            class="bg-white shadow-2xl rotate-[-5deg] px-[1vw] w-[55vw] h-[60vw] sm:w-[21.7vw] mx-[1vw] sm:h-[30vw] pt-[2vw] pl-4"
+          >
+            <img
+              class="sm:h-[20vw] h-[40vw] pr-4 sm:w-[19vw] center"
+              src="https://images.unsplash.com/photo-1576085898323-218337e3e43c?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            />
+            <h3 class="jeet text-[5vw] sm:text-[2vw]">
+              TEDx something something
+            </h3>
+            <h3 class="jeet text-[5vw] sm:text-[2vw]">State, 2019</h3>
+          </div>
+          <div
+            class="bg-white shadow-2xl rotate-[12deg] w-[55vw] px-[1vw] h-[60vw] sm:w-[21.7vw] mx-[1vw] sm:h-[30vw] pt-[2vw] pl-4"
+          >
+            <img
+              class="sm:h-[20vw] h-[40vw] pr-4 sm:w-[19vw] center"
+              src="https://images.unsplash.com/photo-1576085898323-218337e3e43c?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            />
+            <h3 class="jeet text-[5vw] sm:text-[2vw]">
+              TEDx something something
+            </h3>
+            <h3 class="jeet text-[5vw] sm:text-[2vw]">State, 2019</h3>
+          </div>
+          <!-- <div class="bg-white rotate-[7deg] w-[55vw] h-[60vw] sm:w-[21.7vw] mx-[1vw] ml-9   sm:h-[30vw] pt-[2vw] pl-4 ">
+        
+                            <img class="sm:h-[20vw] h-[40vw] pr-4  sm:w-[19vw] center"
+                                src="https://images.unsplash.com/photo-1576085898323-218337e3e43c?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+                            <h3 class="jeet text-[5vw] sm:text-[2vw]">TEDx something something </h3>
+                            <h3 class="jeet text-[5vw] text-[2vw]">State, 2019 </h3>
+                        </div> -->
+          <!-- <div class="bg-white w-[21.7vw] rotate-[3deg] ml-[-2vw]  mx-[1vw] ml-9   h-[30vw] pt-[2vw] pl-4 ">
+        
+                            <img class="h-[20vw] w-[19vw] center"
+                                src="https://images.unsplash.com/photo-1472691681358-fdf00a4bfcfe?q=80&w=1738&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+                            <h3 class="jeet text-[2vw]">TEDx something something </h3>
+                            <h3 class="jeet text-[2vw]">State, 2019 </h3>
                         </div>
-                        <div class="relative h-[60vw] sm:h-[20vw] m-2.5 overflow-hidden text-white">
-                            <img class="cover center"
-                                src="https://suzywelch.wpenginepowered.com/wp-content/uploads/2024/07/LinkedIn-Learning.jpg"
-                                alt="card-image" />
+                        <div class="bg-white w-[21.7vw] rotate-[-4deg] ml-[0.8vw]  mx-[1vw] ml-9   h-[30vw] pt-[2vw] pl-4 ">
+        
+                            <img class="h-[20vw] w-[19vw] center"
+                                src="https://images.unsplash.com/photo-1561489396-888724a1543d?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+                            <h3 class="jeet text-[2vw]">TEDx something something </h3>
+                            <h3 class="jeet text-[2vw]">State, 2019 </h3>
                         </div>
-                        <h1 class="text-white spe font-normal px-4 pt-5 text-[4vw] sm:text-[2vw] font-light">
-                            Title can be anything you want
-                        </h1>
-                        <p class="px-4 text-white leading-normal font-normal">
-                            The description can be anything you want, I'm just adding filler text here. Lorem ipsum
-                            dolor sit, amet consectetur adipisicing elit. Animi, nam dignissimos itaque inventore
-                            reprehenderit atque.
-                        </p>
-                        <button
-                            class="bg-[#F7F7F7] text-black w-[30vw] mb-10 sm:mb-10 sm:w-[8vw] rounded-lg p-3 mt-[4vw] sm:mt-[1vw] mx-4">
-                            Learn more
-                        </button>
-                    </div>
+                        <div class="bg-white rotate-[7deg] w-[21.7vw] ml-[2vw] ml-9   h-[30vw] pt-[2vw] pl-4 ">
+        
+                            <img class="h-[20vw] w-[19vw] center"
+                                src="https://images.unsplash.com/photo-1561489401-fc2876ced162?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+                            <h3 class="jeet text-[2vw]">TEDx something something </h3>
+                            <h3 class="jeet text-[2vw]">State, 2019 </h3>
+                        </div> -->
+        </div>
+      </marquee>
+    </div>
 
-                    <div
-                        class="relative flex flex-col my-6  bg-[#F7F7F7] px-3 shadow-sm w-full sm:w-[45vw] md:w-[30.5vw] mx-auto">
-                        <div class="p-4">
-                            <h6 class="mb-2 mt-2 text-[#000957] leading-normal text-2xl uppercase">
-                                Special News Article
-                            </h6>
-                        </div>
-                        <div class="relative h-[60vw] sm:h-[20vw] m-2.5 overflow-hidden text-white">
-                            <img class="cover center"
-                                src="https://suzywelch.wpenginepowered.com/wp-content/uploads/2024/07/LinkedIn-Learning.jpg"
-                                alt="card-image" />
-                        </div>
-                        <h1 class="text-[#000957] spe font-normal px-4 pt-5 text-[4vw] sm:text-[2vw] font-light">
-                            Title can be anything you want
-                        </h1>
-                        <p class="px-4 text-[#000957] leading-normal font-normal">
-                            The description can be anything you want, I'm just adding filler text here. Lorem ipsum
-                            dolor sit, amet consectetur adipisicing elit. Animi, nam dignissimos itaque inventore
-                            reprehenderit atque.
-                        </p>
-                        <button
-                            class="text-[#000957] bg-[#000957] text-white w-[30vw] mb-10 sm:mb-3 sm:w-[8vw] rounded-lg p-3 mt-[4vw] sm:mt-[1vw] mx-4">
-                            Learn more
-                        </button>
-                    </div>
+    <video
+      class="sm:rounded-sm pb-[4vw]"
+      muted
+      autoplay
+      loop
+      src="https://suzywelch.wpenginepowered.com/wp-content/uploads/2024/08/Suzy-101010-Brightened-compressed.mp4"
+    ></video>
 
-                    <div
-                    class="relative flex flex-col my-6 bg-[#000957] px-3 shadow-sm w-full sm:w-[45vw] md:w-[30.5vw] mx-auto">
-                    <div class="p-4">
-                        <h6 class="mb-2 mt-2 text-white leading-normal text-2xl uppercase">
-                            Special News Article
-                        </h6>
-                    </div>
-                    <div class="relative h-[60vw] sm:h-[20vw] m-2.5 overflow-hidden text-white">
-                        <img class="cover center"
-                            src="https://suzywelch.wpenginepowered.com/wp-content/uploads/2024/07/LinkedIn-Learning.jpg"
-                            alt="card-image" />
-                    </div>
-                    <h1 class="text-white spe font-normal px-4 pt-5 text-[4vw] sm:text-[2vw] font-light">
-                        Title can be anything you want
-                    </h1>
-                    <p class="px-4 text-white leading-normal font-normal">
-                        The description can be anything you want, I'm just adding filler text here. Lorem ipsum
-                        dolor sit, amet consectetur adipisicing elit. Animi, nam dignissimos itaque inventore
-                        reprehenderit atque.
-                    </p>
-                    <button
-                        class="bg-[#F7F7F7] text-black w-[30vw] mb-10 sm:mb-10 sm:w-[8vw] rounded-lg p-3 mt-[4vw] sm:mt-[1vw] mx-4">
-                        Learn more
-                    </button>
-                </div>
+    <!-- ====== Footer Section Start -->
+    <footer class="w-full py-14">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div class="max-w-3xl mx-auto">
+              <a href="https://pagedone.io/" class="flex justify-center ">
+                  <h1 class="text-[4vw]"> VINI KAUL </h1>
+              </a>
+                  <ul class="text-lg flex items-center justify-center flex-col gap-7 md:flex-row md:gap-12 transition-all duration-500 py-16 mb-10 border-b border-gray-200">
+                      <li><a href="#" class="text-gray-800 hover:text-gray-900">Identity</a></li>
+                      <li><a href="#" class=" text-gray-800 hover:text-gray-900">Speaking</a></li>
+                      <li><a href="#" class=" text-gray-800 hover:text-gray-900"> Book</a></li>
+                      <li><a href="#" class=" text-gray-800 hover:text-gray-900">Blogs</a></li>
+                      <li><a href="#" class=" text-gray-800 hover:text-gray-900">Art</a></li>
+                      <li><a href="#" class=" text-gray-800 hover:text-gray-900">Press</a></li>
+                      <li><a href="#" class=" text-gray-800 hover:text-gray-900">Fitness</a></li>
+                  </ul>
+                  <div class="flex space-x-10 justify-center items-center mb-14">
+                      <a href="https://x.com/vinikaul" class="block  text-gray-900 transition-all duration-500 hover:text-indigo-600 ">
+                        <svg class="w-[1.688rem] h-[1.688rem]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="none">
+                          <path d="M11.3214 8.93666L16.4919 3.05566H15.2667L10.7772 8.16205L7.1914 3.05566H3.05566L8.47803 10.7774L3.05566 16.9446H4.28097L9.022 11.552L12.8088 16.9446H16.9446L11.3211 8.93666H11.3214ZM9.64322 10.8455L9.09382 10.0765L4.72246 3.95821H6.60445L10.1322 8.8959L10.6816 9.66481L15.2672 16.083H13.3852L9.64322 10.8458V10.8455Z" fill="currentColor"/>
+                        </svg>
+                      </a>
+                      <a href="https://instagram.com/vini.kaul" class="block  text-gray-900 transition-all duration-500 hover:text-indigo-600 ">
+                          <svg class="w-[1.688rem] h-[1.688rem] " viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M9.76556 14.8811C9.76556 12.3243 11.8389 10.2511 14.3972 10.2511C16.9555 10.2511 19.03 12.3243 19.03 14.8811C19.03 17.4379 16.9555 19.5111 14.3972 19.5111C11.8389 19.5111 9.76556 17.4379 9.76556 14.8811ZM7.26117 14.8811C7.26117 18.82 10.456 22.0129 14.3972 22.0129C18.3385 22.0129 21.5333 18.82 21.5333 14.8811C21.5333 10.9422 18.3385 7.7493 14.3972 7.7493C10.456 7.7493 7.26117 10.9422 7.26117 14.8811ZM20.1481 7.46652C20.148 7.79616 20.2457 8.11843 20.4288 8.39258C20.6119 8.66674 20.8723 8.88046 21.177 9.00673C21.4817 9.133 21.8169 9.16614 22.1405 9.10196C22.464 9.03778 22.7612 8.87916 22.9945 8.64617C23.2278 8.41318 23.3868 8.11627 23.4513 7.79299C23.5157 7.46972 23.4829 7.13459 23.3568 6.83C23.2307 6.5254 23.017 6.26502 22.7428 6.08178C22.4687 5.89853 22.1463 5.80065 21.8164 5.80052H21.8158C21.3737 5.80073 20.9497 5.9763 20.637 6.28867C20.3243 6.60104 20.1485 7.02467 20.1481 7.46652ZM8.78274 26.1863C7.42782 26.1246 6.69138 25.8991 6.20197 25.7085C5.55314 25.4561 5.0902 25.1554 4.60346 24.6696C4.11672 24.1839 3.81543 23.7216 3.56395 23.0732C3.37317 22.5843 3.14748 21.8481 3.08588 20.494C3.01851 19.03 3.00506 18.5902 3.00506 14.8812C3.00506 11.1722 3.01962 10.7336 3.08588 9.26841C3.14759 7.9143 3.37495 7.17952 3.56395 6.68919C3.81654 6.04074 4.11739 5.57808 4.60346 5.09163C5.08953 4.60519 5.55203 4.30408 6.20197 4.05274C6.69116 3.86208 7.42782 3.63652 8.78274 3.57497C10.2476 3.50763 10.6877 3.49419 14.3972 3.49419C18.1068 3.49419 18.5473 3.50874 20.0134 3.57497C21.3683 3.63663 22.1035 3.86385 22.5941 4.05274C23.243 4.30408 23.7059 4.60585 24.1926 5.09163C24.6794 5.57741 24.9796 6.04074 25.2322 6.68919C25.4229 7.17808 25.6486 7.9143 25.7102 9.26841C25.7776 10.7336 25.7911 11.1722 25.7911 14.8812C25.7911 18.5902 25.7776 19.0287 25.7102 20.494C25.6485 21.8481 25.4217 22.5841 25.2322 23.0732C24.9796 23.7216 24.6787 24.1843 24.1926 24.6696C23.7066 25.155 23.243 25.4561 22.5941 25.7085C22.105 25.8992 21.3683 26.1247 20.0134 26.1863C18.5485 26.2536 18.1084 26.2671 14.3972 26.2671C10.686 26.2671 10.2472 26.2536 8.78274 26.1863ZM8.66768 1.0763C7.18823 1.14363 6.17729 1.37808 5.29443 1.72141C4.3801 2.07597 3.60608 2.55163 2.83262 3.32341C2.05916 4.09519 1.58443 4.86997 1.22966 5.78374C0.88612 6.66663 0.651535 7.67641 0.584162 9.15497C0.515676 10.6359 0.5 11.1093 0.5 14.8811C0.5 18.6529 0.515676 19.1263 0.584162 20.6072C0.651535 22.0859 0.88612 23.0955 1.22966 23.9784C1.58443 24.8916 2.05927 25.6673 2.83262 26.4387C3.60597 27.2102 4.3801 27.6852 5.29443 28.0407C6.17896 28.3841 7.18823 28.6185 8.66768 28.6859C10.1502 28.7532 10.6232 28.77 14.3972 28.77C18.1713 28.77 18.645 28.7543 20.1268 28.6859C21.6063 28.6185 22.6166 28.3841 23.5 28.0407C24.4138 27.6852 25.1884 27.2105 25.9618 26.4387C26.7353 25.667 27.209 24.8916 27.5648 23.9784C27.9083 23.0955 28.144 22.0857 28.2103 20.6072C28.2777 19.1252 28.2933 18.6529 28.2933 14.8811C28.2933 11.1093 28.2777 10.6359 28.2103 9.15497C28.1429 7.6763 27.9083 6.66608 27.5648 5.78374C27.209 4.87052 26.7341 4.09641 25.9618 3.32341C25.1896 2.55041 24.4138 2.07597 23.5011 1.72141C22.6166 1.37808 21.6062 1.14252 20.1279 1.0763C18.6461 1.00897 18.1724 0.992188 14.3983 0.992188C10.6243 0.992188 10.1502 1.00785 8.66768 1.0763Z" fill="currentColor"/>
+                              </svg>
+                              
+                      </a>
+                      <a href="https://www.facebook.com/vinikaul/" class="block  text-gray-900 transition-all duration-500 hover:text-indigo-600 ">
+                          <svg class="w-[0.938rem] h-[1.625rem]" viewBox="0 0 15 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M13.7926 14.4697L14.5174 9.86889H10.0528V6.87836C10.0528 5.62033 10.6761 4.39105 12.6692 4.39105H14.7275V0.473179C13.5289 0.282204 12.3177 0.178886 11.1037 0.164062C7.42917 0.164062 5.0302 2.37101 5.0302 6.36077V9.86889H0.957031V14.4697H5.0302V25.5979H10.0528V14.4697H13.7926Z" fill="currentColor"/>
+                              </svg>
+                              
+                      </a>
+                      <a href="https://www.youtube.com/channel/UCoCOg12A3jzfbaAoopd2nDA" class="block  text-gray-900 transition-all duration-500 hover:text-indigo-600 ">
+                          <svg class="w-[1.875rem] h-[1.375rem]" viewBox="0 0 30 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M26.3106 1.27838C27.5782 1.62071 28.5745 2.61957 28.9113 3.88573C29.524 6.18356 29.524 10.9809 29.524 10.9809C29.524 10.9809 29.524 15.7782 28.9113 18.076C28.5698 19.3469 27.5735 20.3457 26.3106 20.6834C24.0186 21.2977 14.8226 21.2977 14.8226 21.2977C14.8226 21.2977 5.63122 21.2977 3.33456 20.6834C2.06695 20.3411 1.07063 19.3422 0.73385 18.076C0.121094 15.7782 0.121094 10.9809 0.121094 10.9809C0.121094 10.9809 0.121094 6.18356 0.73385 3.88573C1.07531 2.61488 2.07162 1.61602 3.33456 1.27838C5.63122 0.664062 14.8226 0.664062 14.8226 0.664062C14.8226 0.664062 24.0186 0.664062 26.3106 1.27838ZM19.5234 10.9809L11.885 15.403V6.55872L19.5234 10.9809Z" fill="currentColor"/>
+                              </svg>
+                              
+                      </a>
+                  </div>
+                  <span class="text-lg text-gray-500 text-center block">©<a href="#">Vini Kaul</a> 2025, All rights reserved.</span>
+          </div>
+      </div>
+  </footer>
+                                          
 
-                </div>
-
-
-                <video class="sm:rounded-sm pb-[4vw] " muted autoplay loop
-                    src="https://suzywelch.wpenginepowered.com/wp-content/uploads/2024/08/Suzy-101010-Brightened-compressed.mp4"></video>
-
-
-
-                <footer class="w-full bg-white pt-[4vw] text-[#000957] py-1 ">
-                    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-                        <div class="max-w-3xl mx-auto">
-                            <h1 class="center text-center sm:text-[5vw] text-[9vw] sm:pt-[0vw] pt-[5vw] ">Vini Kaul
-                            </h1>
-                            <ul
-                                class="text-lg flex items-center justify-center flex-col gap-7 md:flex-row md:gap-12 transition-all duration-500 py-16 mb-10 border-b border-gray-200">
-                                <li><a href="#" class="text-gray-800 hover:text-gray-900">Pagedone</a></li>
-                                <li><a href="#" class=" text-gray-800 hover:text-gray-900">Products</a></li>
-                                <li><a href="#" class=" text-gray-800 hover:text-gray-900">Resources</a></li>
-                                <li><a href="#" class=" text-gray-800 hover:text-gray-900">Blogs</a></li>
-                                <li><a href="#" class=" text-gray-800 hover:text-gray-900">Support</a></li>
-                            </ul>
-                            <div class="flex space-x-10 justify-center items-center mb-14">
-                                <a href="#"
-                                    class="block  text-gray-900 transition-all duration-500 hover:text-indigo-600 ">
-                                    <svg class="w-[1.688rem] h-[1.688rem]" xmlns="http://www.w3.org/2000/svg"
-                                        viewBox="0 0 20 20" fill="none">
-                                        <path
-                                            d="M11.3214 8.93666L16.4919 3.05566H15.2667L10.7772 8.16205L7.1914 3.05566H3.05566L8.47803 10.7774L3.05566 16.9446H4.28097L9.022 11.552L12.8088 16.9446H16.9446L11.3211 8.93666H11.3214ZM9.64322 10.8455L9.09382 10.0765L4.72246 3.95821H6.60445L10.1322 8.8959L10.6816 9.66481L15.2672 16.083H13.3852L9.64322 10.8458V10.8455Z"
-                                            fill="currentColor" />
-                                    </svg>
-                                </a>
-                                <a href="#"
-                                    class="block  text-gray-900 transition-all duration-500 hover:text-indigo-600 ">
-                                    <svg class="w-[1.688rem] h-[1.688rem] " viewBox="0 0 29 29" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path
-                                            d="M9.76556 14.8811C9.76556 12.3243 11.8389 10.2511 14.3972 10.2511C16.9555 10.2511 19.03 12.3243 19.03 14.8811C19.03 17.4379 16.9555 19.5111 14.3972 19.5111C11.8389 19.5111 9.76556 17.4379 9.76556 14.8811ZM7.26117 14.8811C7.26117 18.82 10.456 22.0129 14.3972 22.0129C18.3385 22.0129 21.5333 18.82 21.5333 14.8811C21.5333 10.9422 18.3385 7.7493 14.3972 7.7493C10.456 7.7493 7.26117 10.9422 7.26117 14.8811ZM20.1481 7.46652C20.148 7.79616 20.2457 8.11843 20.4288 8.39258C20.6119 8.66674 20.8723 8.88046 21.177 9.00673C21.4817 9.133 21.8169 9.16614 22.1405 9.10196C22.464 9.03778 22.7612 8.87916 22.9945 8.64617C23.2278 8.41318 23.3868 8.11627 23.4513 7.79299C23.5157 7.46972 23.4829 7.13459 23.3568 6.83C23.2307 6.5254 23.017 6.26502 22.7428 6.08178C22.4687 5.89853 22.1463 5.80065 21.8164 5.80052H21.8158C21.3737 5.80073 20.9497 5.9763 20.637 6.28867C20.3243 6.60104 20.1485 7.02467 20.1481 7.46652ZM8.78274 26.1863C7.42782 26.1246 6.69138 25.8991 6.20197 25.7085C5.55314 25.4561 5.0902 25.1554 4.60346 24.6696C4.11672 24.1839 3.81543 23.7216 3.56395 23.0732C3.37317 22.5843 3.14748 21.8481 3.08588 20.494C3.01851 19.03 3.00506 18.5902 3.00506 14.8812C3.00506 11.1722 3.01962 10.7336 3.08588 9.26841C3.14759 7.9143 3.37495 7.17952 3.56395 6.68919C3.81654 6.04074 4.11739 5.57808 4.60346 5.09163C5.08953 4.60519 5.55203 4.30408 6.20197 4.05274C6.69116 3.86208 7.42782 3.63652 8.78274 3.57497C10.2476 3.50763 10.6877 3.49419 14.3972 3.49419C18.1068 3.49419 18.5473 3.50874 20.0134 3.57497C21.3683 3.63663 22.1035 3.86385 22.5941 4.05274C23.243 4.30408 23.7059 4.60585 24.1926 5.09163C24.6794 5.57741 24.9796 6.04074 25.2322 6.68919C25.4229 7.17808 25.6486 7.9143 25.7102 9.26841C25.7776 10.7336 25.7911 11.1722 25.7911 14.8812C25.7911 18.5902 25.7776 19.0287 25.7102 20.494C25.6485 21.8481 25.4217 22.5841 25.2322 23.0732C24.9796 23.7216 24.6787 24.1843 24.1926 24.6696C23.7066 25.155 23.243 25.4561 22.5941 25.7085C22.105 25.8992 21.3683 26.1247 20.0134 26.1863C18.5485 26.2536 18.1084 26.2671 14.3972 26.2671C10.686 26.2671 10.2472 26.2536 8.78274 26.1863ZM8.66768 1.0763C7.18823 1.14363 6.17729 1.37808 5.29443 1.72141C4.3801 2.07597 3.60608 2.55163 2.83262 3.32341C2.05916 4.09519 1.58443 4.86997 1.22966 5.78374C0.88612 6.66663 0.651535 7.67641 0.584162 9.15497C0.515676 10.6359 0.5 11.1093 0.5 14.8811C0.5 18.6529 0.515676 19.1263 0.584162 20.6072C0.651535 22.0859 0.88612 23.0955 1.22966 23.9784C1.58443 24.8916 2.05927 25.6673 2.83262 26.4387C3.60597 27.2102 4.3801 27.6852 5.29443 28.0407C6.17896 28.3841 7.18823 28.6185 8.66768 28.6859C10.1502 28.7532 10.6232 28.77 14.3972 28.77C18.1713 28.77 18.645 28.7543 20.1268 28.6859C21.6063 28.6185 22.6166 28.3841 23.5 28.0407C24.4138 27.6852 25.1884 27.2105 25.9618 26.4387C26.7353 25.667 27.209 24.8916 27.5648 23.9784C27.9083 23.0955 28.144 22.0857 28.2103 20.6072C28.2777 19.1252 28.2933 18.6529 28.2933 14.8811C28.2933 11.1093 28.2777 10.6359 28.2103 9.15497C28.1429 7.6763 27.9083 6.66608 27.5648 5.78374C27.209 4.87052 26.7341 4.09641 25.9618 3.32341C25.1896 2.55041 24.4138 2.07597 23.5011 1.72141C22.6166 1.37808 21.6062 1.14252 20.1279 1.0763C18.6461 1.00897 18.1724 0.992188 14.3983 0.992188C10.6243 0.992188 10.1502 1.00785 8.66768 1.0763Z"
-                                            fill="currentColor" />
-                                    </svg>
-
-                                </a>
-                                <a href="#"
-                                    class="block  text-gray-900 transition-all duration-500 hover:text-indigo-600 ">
-                                    <svg class="w-[0.938rem] h-[1.625rem]" viewBox="0 0 15 26" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path
-                                            d="M13.7926 14.4697L14.5174 9.86889H10.0528V6.87836C10.0528 5.62033 10.6761 4.39105 12.6692 4.39105H14.7275V0.473179C13.5289 0.282204 12.3177 0.178886 11.1037 0.164062C7.42917 0.164062 5.0302 2.37101 5.0302 6.36077V9.86889H0.957031V14.4697H5.0302V25.5979H10.0528V14.4697H13.7926Z"
-                                            fill="currentColor" />
-                                    </svg>
-
-                                </a>
-                                <a href="#"
-                                    class="block  text-gray-900 transition-all duration-500 hover:text-indigo-600 ">
-                                    <svg class="w-[1.875rem] h-[1.375rem]" viewBox="0 0 30 22" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd" clip-rule="evenodd"
-                                            d="M26.3106 1.27838C27.5782 1.62071 28.5745 2.61957 28.9113 3.88573C29.524 6.18356 29.524 10.9809 29.524 10.9809C29.524 10.9809 29.524 15.7782 28.9113 18.076C28.5698 19.3469 27.5735 20.3457 26.3106 20.6834C24.0186 21.2977 14.8226 21.2977 14.8226 21.2977C14.8226 21.2977 5.63122 21.2977 3.33456 20.6834C2.06695 20.3411 1.07063 19.3422 0.73385 18.076C0.121094 15.7782 0.121094 10.9809 0.121094 10.9809C0.121094 10.9809 0.121094 6.18356 0.73385 3.88573C1.07531 2.61488 2.07162 1.61602 3.33456 1.27838C5.63122 0.664062 14.8226 0.664062 14.8226 0.664062C14.8226 0.664062 24.0186 0.664062 26.3106 1.27838ZM19.5234 10.9809L11.885 15.403V6.55872L19.5234 10.9809Z"
-                                            fill="currentColor" />
-                                    </svg>
-
-                                </a>
-                            </div>
-                            <span class="text-lg text-gray-500 text-center block">©<a
-                                    href="https://pagedone.io/">Vini Kaul</a> 2025, All rights reserved.</span>
-                        </div>
-                    </div>
-                </footer>
-
-
-
-
-</body>
-<script>
-    
-  </script>
+    <!-- ====== Footer Section End -->
+  </body>
+  <script></script>
 </html>
